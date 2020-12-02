@@ -1,0 +1,16 @@
+{
+  "name": "remoteappmanager",
+  "version": "1.0.0",
+  "description": "Downloads and installs apps from your Steam library on a remote machine. For those who can't access their library page on the web.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexandra Frock <im@alexandra.moe>",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "steam-user": "^4.18.0",
+    "yargs": "^16.1.1"
+  }
+}
